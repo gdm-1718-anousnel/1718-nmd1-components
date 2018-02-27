@@ -1,18 +1,41 @@
-body{
-    Background-color: grey;
 
-}
-a.hover{
-    background-color: white;
-    color: black;
-    font-weight: black;
-
+.button:hover{
+    background: #ED303C;
 }
 
-}
 .button {
-    width: 200px;
-    height: 60px;
-    display: block;
-    background-color: blue;
+    border:1px solid rgba(197,202,233,1);
+    border-radius: 8px;
+    background:#3B8183;
+    color:#FAD089;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+
 }
+.button--primary{
+    background: rgba(26,25,126,1);
+    color: rgba(197,202,233,1);
+
+}
+.button--primary:hover{
+    background: rgba(48,63,159,1);
+}
+.button--secondary{
+    background:#3B8183;
+    color: rgba(244,143,177,1);        
+}
+.button--secundary:hover{
+background: rgba(194,24,91,1);
+}
+.button--tertiary{
+    border-color: rgba(26,35,126,1);
+    color:#3B8183;
+}
+
+.button--tertiary:hover {
+    border-color: rgba(26,35,126,1);
+    color:rgba(26,35,126,1);
+}
+
