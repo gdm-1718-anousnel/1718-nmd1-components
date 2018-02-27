@@ -1,0 +1,18 @@
+body{
+    Background-color: grey;
+
+}
+a.hover{
+    background-color: white;
+    color: black;
+    font-weight: black;
+
+}
+
+}
+.button {
+    width: 200px;
+    height: 60px;
+    display: block;
+    background-color: blue;
+}
